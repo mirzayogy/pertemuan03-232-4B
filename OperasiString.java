@@ -30,6 +30,37 @@ public class OperasiString{
         System.out.println(hariIni.charAt(3));
         System.out.println(hariIni.replace("-","/"));
 
+        String bulanTeks = "";
+        if(bulan.equals("01")){
+            bulanTeks = "Januari";
+        } else if(bulan.equals("02")) {
+            bulanTeks = "Februari";
+        } else if(bulan.equals("03")) {
+            bulanTeks = "Maret";
+        } else if(bulan.equals("04")) {
+            bulanTeks = "April";
+        } else if(bulan.equals("05")) {
+            bulanTeks = "Mei";
+        }else if(bulan.equals("06")) {
+            bulanTeks = "Juni";
+        }else if(bulan.equals("07")) {
+            bulanTeks = "Juli";
+        }else if(bulan.equals("08")) {
+            bulanTeks = "Agustus";
+        }else if(bulan.equals("09")) {
+            bulanTeks = "September";
+        }else if(bulan.equals("10")) {
+            bulanTeks = "Oktober";
+        }else if(bulan.equals("11")) {
+            bulanTeks = "November";
+        }else if(bulan.equals("12")) {
+            bulanTeks = "Desember";
+        }else {
+            bulanTeks = "Tidak valid";
+        }
+
+        System.out.println(tanggal + " " + bulanTeks +" " +tahun);
+
         
     }
 }
