@@ -25,5 +25,11 @@ public class OperasiString{
         String tanggal = hariIni.substring(8,10);
 
         System.out.println(tanggal + "-" + bulan +"-" +tahun);
+
+        System.out.println(hariIni.length());
+        System.out.println(hariIni.charAt(3));
+        System.out.println(hariIni.replace("-","/"));
+
+        
     }
 }
